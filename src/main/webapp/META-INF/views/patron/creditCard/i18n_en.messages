@@ -1,0 +1,17 @@
+patron.creditCard.label.holder = Holder name
+patron.creditCard.label.number = Number
+patron.creditCard.label.brand = Brand
+patron.creditCard.label.cvv = CVV
+patron.creditCard.label.expMonth = Expiration  month
+patron.creditCard.label.expYear = Expiration year
+
+patron.creditCard.button.return = Return
+patron.creditCard.button.update = Update
+patron.creditCard.button.delete = Delete
+patron.creditCard.button.create = Create
+
+
+patron.creditCard.error.past-year = The year is in past
+patron.creditCard.error.past-month = The month is in past
+patron.banner.error.cardNameSpamWord = Name has spam word
+patron.banner.error.cardBrandSpamWord = Brand has spam word

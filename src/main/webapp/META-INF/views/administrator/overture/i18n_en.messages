@@ -1,0 +1,19 @@
+administrator.overture.form.label.title = Title 
+administrator.overture.form.label.deadline = Deadline
+administrator.overture.form.label.description = Description
+administrator.overture.form.label.minMoney = Minimun range money
+administrator.overture.form.label.maxMoney = Maximum range money
+administrator.overture.list.label.title = Title
+administrator.overture.list.label.deadline = Deadline
+administrator.overture.list.label.range = Range
+administrator.overture.form.label.email = Email
+
+
+administrator.overture.form.button.return = Return
+administrator.overture.form.button.create = Create
+administrator.overture.form.button.update = Update
+administrator.overture.form.button.delete = Delete
+
+administrator.overture.error.deadlineFuture = Deadline must be future
+administrator.overture.form.error.onlyEuro = Currency must be euro
+administrator.overture.form.error.maxAndMinError = Max money must be higher than min

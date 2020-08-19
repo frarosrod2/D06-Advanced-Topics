@@ -1,0 +1,50 @@
+administrator.dashboard.form.label.quantities = Quantities
+administrator.dashboard.form.label.numberOfNotices = Number of notices
+administrator.dashboard.form.label.numberOfTechnologyRecords = Number of technology records
+administrator.dashboard.form.label.numberOfToolRecords = Number of tool records
+	
+administrator.dashboard.form.label.inquiries = Inquiries
+administrator.dashboard.form.label.minimumMoneyActiveInquiries = Minimum
+administrator.dashboard.form.label.maximumMoneyActiveInquiries = Maximum
+administrator.dashboard.form.label.averageMoneyActiveInquiries = Average
+administrator.dashboard.form.label.standardDeviationMoneyActiveInquiries = Standard deviation
+
+administrator.dashboard.form.label.overtures = Overtures
+administrator.dashboard.form.label.minimumMoneyActiveOvertures = Minimum
+administrator.dashboard.form.label.maximumMoneyActiveOvertures = Maximum
+administrator.dashboard.form.label.averageMoneyActiveOvertures = Average
+administrator.dashboard.form.label.standardDeviationMoneyActiveOvertures = Standard deviation
+
+administrator.dashboard.form.label.investmentRounds = Investment Rounds
+administrator.dashboard.form.label.application = Applications
+
+administrator.dashboard.form.label.averageNumberInvestmentRoundsEntrepreneur = Average number of investment rounds per entrepreneur
+administrator.dashboard.form.label.averageNumberApplicationsEntrepreneur = Average number of applications per entrepreneur
+administrator.dashboard.form.label.averageNumberApplicationsInvestor = Average number of applications per investor
+
+administrator.dashboard.chart.label.technologyRecords = Technology Records
+administrator.dashboard.chart.label.toolRecords = Tool Records
+administrator.dashboard.chart.label.open = Open Source
+administrator.dashboard.chart.label.closed = Closed Source
+administrator.dashboard.chart.label.technologyRecordsBySectors = Technology Records
+administrator.dashboard.chart.label.toolRecordsBySectors = Tool Records
+administrator.dashboard.chart.label.technologyRecordsSectors = Technology Records By Sectors
+administrator.dashboard.chart.label.toolRecordsSectors = Tool Records By Sectors
+
+administrator.dashboard.chart.label.ratioOfInvestmentRoundsGroupedByKind = Ratio Of Investment Rounds By Kind
+administrator.dashboard.chart.label.ratioOpenVsClosedTechnologies = Ratio Of Open Vs Closed Technologies
+administrator.dashboard.chart.label.ratioOpenVsClosedTools = Ratio Of Open Vs Closed Tools
+administrator.dashboard.chart.label.pending = Pending
+administrator.dashboard.chart.label.accepted = Accepted
+administrator.dashboard.chart.label.rejected = Rejected
+administrator.dashboard.chart.label.seed = Seed
+administrator.dashboard.chart.label.angel = Angel
+administrator.dashboard.chart.label.seriesa = Series A
+administrator.dashboard.chart.label.seriesb = Series B
+administrator.dashboard.chart.label.seriesc = Series C
+administrator.dashboard.chart.label.bridge = Bridge
+administrator.dashboard.chart.label.ratioOfApplicationsGroupedByStatus = Ratio of applications by status
+
+administrator.dashboard.chart.label.applicationsPerDay = Applications Per Day
+
+

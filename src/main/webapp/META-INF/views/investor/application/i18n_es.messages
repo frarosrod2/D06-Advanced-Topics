@@ -1,0 +1,16 @@
+investor.application.list.label.ticker = Ticker
+investor.application.list.label.creationMoment = Momento de creación
+investor.application.list.label.statement = Declaración
+investor.application.list.label.status = Estado
+
+investor.application.form.label.ticker = Ticker
+investor.application.form.label.creationMoment = Momento de creación
+investor.application.form.label.statement = Declaración
+investor.application.form.label.investmentOffer = Oferta de inversión
+investor.application.form.label.status = Estado
+
+investor.application.form.button.return = Volver
+
+investor.application.form.button.createApplication = Crear
+investor.ticker.error.ticker = Ticker duplicado
+

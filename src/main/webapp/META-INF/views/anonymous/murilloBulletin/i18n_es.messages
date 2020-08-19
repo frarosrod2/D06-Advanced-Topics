@@ -1,0 +1,15 @@
+anonymous.murilloBulletin.form.label.author = Autor
+anonymous.murilloBulletin.form.label.title = Título
+anonymous.murilloBulletin.form.button.create = Crear
+anonymous.murilloBulletin.form.button.return = Volver
+anonymous.murilloBulletin.form.label.text = Texto
+anonymous.murilloBulletin.form.label.volumen = Volumen
+anonymous.murilloBulletin.form.label.number = Número
+anonymous.murilloBulletin.form.label.moment = Momento
+
+anonymous.murilloBulletin.list.label.text = Texto
+anonymous.murilloBulletin.list.label.volumen = Volumen
+anonymous.murilloBulletin.list.label.number = Número
+anonymous.murilloBulletin.list.label.moment = Momento
+anonymous.murilloBulletin.list.label.author = Autor
+anonymous.murilloBulletin.list.label.title = Título

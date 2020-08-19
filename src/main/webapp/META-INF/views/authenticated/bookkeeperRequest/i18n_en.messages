@@ -1,0 +1,7 @@
+authenticated.bookkeeperRequest.form.label.name = Name
+authenticated.bookkeeperRequest.form.label.responsabilityStatement = Responsability statement
+
+authenticated.bookkeeperRequest.form.button.create = Create
+authenticated.bookkeeperRequest.form.button.return = Return
+
+authenticated.bookkeeperRequest.error.pending = There is already a pending request

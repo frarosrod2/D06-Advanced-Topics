@@ -1,0 +1,15 @@
+authenticated.challenge.form.label.title = Título
+authenticated.challenge.form.label.deadline = Fecha límite
+authenticated.challenge.form.label.description = Descripción
+authenticated.challenge.form.label.rookieGoal = Objetivo de novato
+authenticated.challenge.form.label.rookieReward = Recompensa de novato
+authenticated.challenge.form.label.averageGoal = Objetivo de persona mediana
+authenticated.challenge.form.label.averageReward = Recompensa de persona mediana
+authenticated.challenge.form.label.expertGoal = Objetivo de experto
+authenticated.challenge.form.label.expertReward = Recompensa de experto
+
+authenticated.challenge.list.label.title = Título
+authenticated.challenge.list.label.deadline = Fecha límite
+
+
+authenticated.challenge.form.button.return = Volver

@@ -1,0 +1,20 @@
+entrepreneur.application.list.label.ticker = Ticker
+entrepreneur.application.list.label.creationMoment = Momento de creación
+entrepreneur.application.list.label.statement = Declaración
+entrepreneur.application.list.label.status = Estado
+
+entrepreneur.application.form.label.ticker = Ticker
+entrepreneur.application.form.label.creationMoment = Momento de creación
+entrepreneur.application.form.label.statement = Declaración
+entrepreneur.application.form.label.investmentOffer = Oferta de inversión
+entrepreneur.application.form.label.status = Estado
+
+entrepreneur.application.form.button.return = Volver
+
+entrepreneur.application.form.label.justification = Justificación
+entrepreneur.application.form.label.accept = Aceptar
+entrepreneur.application.form.label.reject = Rechazar
+entrepreneur.application.form.label.investmentRound = Ronda de inversión
+
+entrepreneur.justification.error.justified = La justificación es necesaria para rechazar la aplicación
+entrepreneur.investmentRound.error.isSpam = Tiene spam

@@ -1,0 +1,14 @@
+anonymous.pazosBulletin.form.label.author = Author
+anonymous.pazosBulletin.form.label.text = Text
+anonymous.pazosBulletin.form.label.foodHandler = Food Handler
+anonymous.pazosBulletin.form.label.experience = Experience
+anonymous.pazosBulletin.form.label.contact = Contact
+anonymous.pazosBulletin.form.button.create = Create
+anonymous.pazosBulletin.form.button.return = Return
+
+anonymous.pazosBulletin.list.label.moment = Moment
+anonymous.pazosBulletin.list.label.author = Author
+anonymous.pazosBulletin.list.label.text = Text
+anonymous.pazosBulletin.list.label.foodHandler = Food Handler
+anonymous.pazosBulletin.list.label.experience = Experience
+anonymous.pazosBulletin.list.label.contact = Contact

@@ -1,0 +1,23 @@
+administrator.challenge.list.label.title = Title
+administrator.challenge.list.label.deadline = Deadline
+administrator.challenge.list.label.description = Description
+
+administrator.challenge.form.label.title = Title
+administrator.challenge.form.label.deadline = Deadline
+administrator.challenge.form.label.description = Description
+administrator.challenge.form.label.goals = Goals
+administrator.challenge.form.label.rookieGoal = Rookie Goal
+administrator.challenge.form.label.rookieReward = Rookie Reward
+administrator.challenge.form.label.averageGoal = Average Goal
+administrator.challenge.form.label.averageReward = Average Reward
+administrator.challenge.form.label.expertGoal = Expert Goal
+administrator.challenge.form.label.expertReward = Expert Reward
+
+administrator.challenge.form.button.create = Create
+administrator.challenge.form.button.update = Update
+administrator.challenge.form.button.delete = Delete
+administrator.challenge.form.button.return = Return
+
+administrator.challenge.error.currencyNotEUR = Currency not valid
+administrator.challenge.error.amount = Amount must be positive
+administrator.challenge.error.deadlineFuture = Date must be one month in future

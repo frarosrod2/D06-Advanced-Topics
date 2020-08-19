@@ -1,0 +1,14 @@
+administrator.bookkeeperRequest.form.label.name = Nombre
+administrator.bookkeeperRequest.form.label.responsabilityStatement = Declaración de responsabilidad
+administrator.bookkeeperRequest.form.label.state = Estado
+
+administrator.bookkeeperRequest.form.label.confirmed.pending = Pendiente
+administrator.bookkeeperRequest.form.label.confirmed.accepted = Aceptado
+administrator.bookkeeperRequest.form.label.confirmed.rejected = Denegado
+
+administrator.bookkeeperRequest.form.button.update = Actualizar
+administrator.bookkeeperRequest.form.button.return = Volver
+
+administrator.bookkeeperRequest.list.label.name = Nombre
+administrator.bookkeeperRequest.list.label.responsabilityStatement = Declaración de responsabilidad
+administrator.bookkeeperRequest.list.button.return = Volver

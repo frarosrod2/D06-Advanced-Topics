@@ -1,0 +1,13 @@
+authenticated.inquiry.form.label.title = Title 
+authenticated.inquiry.form.label.creation = Creation
+authenticated.inquiry.form.label.deadline = Deadline
+authenticated.inquiry.form.label.description = Description
+authenticated.inquiry.form.label.range = Range
+authenticated.inquiry.form.label.email = Email
+
+authenticated.inquiry.list.label.title = Title
+authenticated.inquiry.list.label.deadline = Deadline
+authenticated.inquiry.list.label.range = Range
+
+
+authenticated.inquiry.form.button.return = Return

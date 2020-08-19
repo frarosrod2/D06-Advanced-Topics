@@ -1,0 +1,34 @@
+entrepreneur.investmentRound.form.label.ticker = Ticker
+entrepreneur.investmentRound.form.label.round = Round
+entrepreneur.investmentRound.form.label.title = Title
+entrepreneur.investmentRound.form.label.creationMoment = Creation moment
+entrepreneur.investmentRound.form.label.description = Description
+entrepreneur.investmentRound.form.label.money = Money
+entrepreneur.investmentRound.form.label.link = Link
+entrepreneur.investmentRound.form.label.workProgramme = Work programme
+entrepreneur.investmentRound.form.label.finalMode = Final Mode
+
+entrepreneur.investmentRound.form.button.update-activities = Update activity
+entrepreneur.investmentRound.form.button.delete-activities = Delete activity
+entrepreneur.investmentRound.form.button.accountingRecords = Accounting Records
+entrepreneur.investmentRound.form.button.add-activities = Add activity
+entrepreneur.investmentRound.form.button.create = Create
+entrepreneur.investmentRound.form.button.update = Update
+entrepreneur.investmentRound.form.button.delete = Delete
+
+entrepreneur.investmentRound.list.label.title = Title
+entrepreneur.investmentRound.list.label.round = Round
+entrepreneur.investmentRound.list.label.ticker = Ticker
+
+entrepreneur.investmentRound.form.button.return = Return
+
+entrepreneur.investmentRound.error.negative-money = Negative money
+entrepreneur.investmentRound.error.money-not-EUR = Money not EUR
+entrepreneur.investmentRound.error.investmentRound-published = Investment round is published
+entrepreneur.investmentRound.error.workProgrammeSum = Work programme don't sum the same that investment round money
+entrepreneur.investmentRound.error.no-description = Don't have description
+entrepreneur.investmentRound.error.isSpam = This investment round contains spam
+entrepreneur.investmentRound.error.applied = Investment round has applied
+entrepreneur.investmentRound.error.must-be-different-ticker = Ticker must be different
+entrepreneur.investmentRound.error.investmentRound-published = Investment not in final mode
+entrepreneur.investmentRound.error.workProgrammeSum = Work programme amount is not equal to salary

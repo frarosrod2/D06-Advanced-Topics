@@ -1,0 +1,23 @@
+patron.banner.form.label.picture = Picture
+patron.banner.form.label.slogan = Slogan
+patron.banner.form.label.targetURL = URL
+patron.banner.form.button.return = Return
+patron.banner.form.button.update = Update
+patron.banner.form.button.delete = Delete
+patron.banner.form.button.create = Create
+patron.banner.form.button.creditCard.create = Create credit card
+patron.banner.form.button.creditCard.update = Update card
+patron.banner.form.button.creditCard.show = Show card
+
+patron.banner.list.label.picture = Picture
+patron.banner.list.label.slogan = Slogan
+patron.banner.list.label.targetURL = URL
+
+patron.banner.error.past-year = The year is in past
+patron.banner.error.past-month = The month is in past
+
+patron.banner.error.pictureSpamWord = Picture has spamword
+patron.banner.error.sloganSpamWord = Slogan has spamword
+patron.banner.error.targetUrlSpamWord = TargetURL has spamword
+patron.banner.error.cardNameSpamWord = Name has spamword
+patron.banner.error.cardBrandSpamWord =  Brand has spamword

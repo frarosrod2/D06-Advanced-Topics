@@ -1,0 +1,13 @@
+authenticated.overture.form.label.title = Title 
+authenticated.overture.form.label.creation = Creation
+authenticated.overture.form.label.deadline = Deadline
+authenticated.overture.form.label.description = Description
+authenticated.overture.form.label.range = Range
+authenticated.overture.form.label.email = Email
+
+authenticated.overture.list.label.title = Title
+authenticated.overture.list.label.deadline = Deadline
+authenticated.overture.list.label.range = Range
+
+
+authenticated.overture.form.button.return = Return

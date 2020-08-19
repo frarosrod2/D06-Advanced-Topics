@@ -1,0 +1,16 @@
+administrator.notice.form.label.title = Título
+administrator.notice.form.label.picture = Imagen
+administrator.notice.form.label.creation = Creación
+administrator.notice.form.label.deadline = Fecha límite
+administrator.notice.form.label.body = Cuerpo del texto
+administrator.notice.form.label.linkList = Lista de enlaces
+
+administrator.notice.list.label.title = Título
+administrator.notice.list.label.picture = Imagen
+administrator.notice.list.label.creation = Creación
+administrator.notice.form.label.optionalLinks = Enlaces opcionales
+administrator.notice.form.label.confirm = Confirmar creación 
+administrator.message.form.errors.confirm = Debes confirmar la creación
+administrator.notice.form.button.create = Crear
+
+administrator.notice.form.button.return = Volver

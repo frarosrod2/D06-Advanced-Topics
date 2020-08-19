@@ -1,0 +1,15 @@
+authenticated.creditCard.label.holder = Holder name
+authenticated.creditCard.label.number = Number
+authenticated.creditCard.label.brand = Brand
+authenticated.creditCard.label.cvv = CVV
+authenticated.creditCard.label.expMonth = Expiration  month
+authenticated.creditCard.label.expYear = Expiration year
+
+authenticated.creditCard.button.return = Return
+authenticated.creditCard.button.update = Update
+authenticated.creditCard.button.delete = Delete
+authenticated.creditCard.button.create = Create
+
+
+authenticated.creditCard.error.past-year = The year is in past
+authenticated.creditCard.error.past-month = The month is in past

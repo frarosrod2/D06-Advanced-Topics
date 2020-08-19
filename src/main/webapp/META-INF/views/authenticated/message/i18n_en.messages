@@ -1,0 +1,19 @@
+authenticated.message.label.title = Title
+authenticated.message.label.tags = Tags
+authenticated.message.label.body = Body
+authenticated.message.header.h2 = Add message to forum
+
+authenticated.message.label.confirmPost = I understand that once this message is created, I won't be able to update nor delete it.
+authenticated.message.form.errors.confirmPost = You must check this field
+authenticated.message.error.title.spam = Title contains spam words
+authenticated.message.error.body.spam = Body contains spam words
+authenticated.message.error.tags.spam = Tags contains spam words
+
+authenticated.message.form.button.return = Return
+authenticated.message.form.button.returnToForum = Return to forum
+authenticated.message.form.button.create = Create
+
+authenticated.message.form.errors.confirmPost = The checkbox must be selected
+authenticated.message.form.errors.body-length = The text is too long
+authenticated.message.error.tagEmpty = Tags mustn't be empty
+authenticated.message.error.repeatedTag = There is a repeated tag

@@ -1,0 +1,10 @@
+authenticated.accountingRecord.form.label.title = Title
+authenticated.accountingRecord.form.label.status = Status
+authenticated.accountingRecord.form.label.creationMoment = Creation moment
+authenticated.accountingRecord.form.label.body = Body
+
+authenticated.accountingRecord.list.label.title = Title
+authenticated.accountingRecord.list.label.status = Status
+authenticated.accountingRecord.list.label.creationMoment = Creation moment
+
+authenticated.accountingRecord.form.button.return = Return

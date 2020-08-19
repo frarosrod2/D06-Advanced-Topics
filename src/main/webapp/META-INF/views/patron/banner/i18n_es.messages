@@ -1,0 +1,25 @@
+patron.banner.form.label.picture = Imagen
+patron.banner.form.label.slogan = Eslogan
+patron.banner.form.label.url = Dirección
+patron.banner.form.legend.creditCard = Tarjeta de crédito
+patron.banner.form.button.return = Volver
+patron.banner.form.button.update = Actualizar
+patron.banner.form.button.delete = Eliminar
+patron.banner.form.button.create = Crear
+patron.banner.form.button.creditCard.create = Crear tarjeta de crédito
+patron.banner.form.button.creditCard.update = Actualizar tarjeta
+patron.banner.form.button.creditCard.show = Mostrar tarjeta
+
+
+patron.banner.list.label.picture = Imagen
+patron.banner.list.label.slogan = Eslogan
+patron.banner.list.label.url = Dirección
+
+patron.banner.error.past-year = El año está en pasado
+patron.banner.error.past-month = El mes está en pasado
+
+patron.banner.error.pictureSpamWord = La foto tiene una palabra spam
+patron.banner.error.sloganSpamWord = El eslogan tiene una palabra spam
+patron.banner.error.targetUrlSpamWord = La direccion url tiene una palabra spam
+patron.banner.error.cardNameSpamWord = El nombre tiene una palabra spam
+patron.banner.error.cardBrandSpamWord =  La marca tiene una palabra spam

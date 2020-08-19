@@ -1,0 +1,19 @@
+authenticated.message.label.title = Título
+authenticated.message.label.tags = Etiquetas
+authenticated.message.label.body = Cuerpo
+authenticated.message.header.h2 = Añadir mensaje al hilo
+
+authenticated.message.label.confirmPost = Entiendo que una vez este mensaje sea creado, no podré actualizarlo ni eliminarlo.
+authenticated.message.form.errors.confirmPost = Debes seleccionar esta casilla
+authenticated.message.error.title.spam = El título contiene palabras spam
+authenticated.message.error.body.spam = El cuerpo contiene palabras spam
+authenticated.message.error.tags.spam = Las etiquetas contienen palabras spam
+
+authenticated.message.form.button.return = Volver
+authenticated.message.form.button.returnToForum = Volver al hilo
+authenticated.message.form.button.create = Crear
+
+authenticated.message.form.errors.confirmPost = Debe marcar el recuadro
+authenticated.message.form.errors.body-length = El texto es demasiado largo
+authenticated.message.error.tagEmpty = Las etiquetas no pueden estar vacías
+authenticated.message.error.repeatedTag = Hay al menos una etiqueta repetida

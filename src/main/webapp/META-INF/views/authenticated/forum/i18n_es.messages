@@ -1,0 +1,25 @@
+authenticated.forum.list.label.title = Título
+authenticated.forum.list.label.moment = Momento
+
+authenticated.forum.show.label.title = Título
+authenticated.forum.show.label.moment = Momento
+
+authenticated.forum.show.message.label.title = Título
+authenticated.forum.show.message.label.tags = Etiquetas
+authenticated.forum.show.message.label.body = Contenido
+authenticated.forum.show.message.label.moment = Momento
+authenticated.forum.form.label.creator = Creador
+
+authenticated.forum.show.legend.messages = Mensajes
+authenticated.forum.show.message.noMessages = No hay mensajes
+authenticated.forum.show.user.label.username = Nombre de usuario
+authenticated.forum.show.legend.users = Usuarios involucrados
+authenticated.forum.show.message.noUsers = No hay usuarios involucrados
+authenticated.forum.form.button.addMessage = + Añadir mensaje
+authenticated.forum.form.button.add-involvedUser = Añadir usuario involucrado
+authenticated.forum.form.button.delete-involved = Eliminar usuarios involucrados
+authenticated.forum.form.button.return = Volver
+authenticated.forum.form.button.create = Crear
+authenticated.forum.form.button.delete = Borrar
+
+authenticated.forum.list.button.return = Volver

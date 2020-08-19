@@ -1,0 +1,12 @@
+authenticated.notice.form.label.title = Title
+authenticated.notice.form.label.picture = Picture
+authenticated.notice.form.label.creation = Creation
+authenticated.notice.form.label.deadline = Deadline
+authenticated.notice.form.label.body = Body
+authenticated.notice.form.label.linkList = Link list
+
+authenticated.notice.list.label.title = Title
+authenticated.notice.list.label.picture = Picture
+authenticated.notice.list.label.creation = Creation
+
+authenticated.notice.form.button.return = Return

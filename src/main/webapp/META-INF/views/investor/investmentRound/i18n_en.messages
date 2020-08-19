@@ -1,0 +1,19 @@
+authenticated.investmentRound.form.label.ticker = Ticker
+authenticated.investmentRound.form.label.round = Round
+authenticated.investmentRound.form.label.title = Title
+authenticated.investmentRound.form.label.creationMoment = Creation moment
+authenticated.investmentRound.form.label.description = Description
+authenticated.investmentRound.form.label.money = Money
+authenticated.investmentRound.form.label.link = Link
+authenticated.investmentRound.form.label.workProgramme = Work programme
+
+
+authenticated.investmentRound.list.label.title = Title
+authenticated.investmentRound.list.label.round = Round
+authenticated.investmentRound.list.label.ticker = Ticker
+
+authenticated.investmentRound.form.button.return = Return
+
+authenticated.investmentRound.form.button.accountingRecords = Accountings
+
+authenticated.investmentRound.form.button.createApplication = Create application

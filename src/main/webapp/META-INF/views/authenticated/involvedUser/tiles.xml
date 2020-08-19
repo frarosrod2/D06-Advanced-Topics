@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC 
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+
+	<definition name="authenticated/involved-user/form" extends="master">
+		<put-attribute name="body" type="template" value="../authenticated/involvedUser/form.jsp" />
+	</definition>
+
+	<definition name="authenticated/involved-user/list" extends="master">
+		<put-attribute name="body" type="template" value="../authenticated/involvedUser/list.jsp" />
+	</definition>
+
+</tiles-definitions> 

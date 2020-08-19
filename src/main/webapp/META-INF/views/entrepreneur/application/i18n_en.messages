@@ -1,0 +1,20 @@
+entrepreneur.application.list.label.ticker = Ticker
+entrepreneur.application.list.label.creationMoment = Creation moment
+entrepreneur.application.list.label.statement = Statement
+entrepreneur.application.list.label.status = Status
+
+entrepreneur.application.form.label.ticker = Ticker
+entrepreneur.application.form.label.creationMoment = Creation moment
+entrepreneur.application.form.label.statement = Statement
+entrepreneur.application.form.label.investmentOffer = Investment Offer
+entrepreneur.application.form.label.status = Status
+
+entrepreneur.application.form.button.return = Return
+
+entrepreneur.application.form.label.justification = Justification
+entrepreneur.application.form.label.accept = Accept
+entrepreneur.application.form.label.reject = Reject
+entrepreneur.application.form.label.investmentRound = Investment Round
+
+entrepreneur.justification.error.justified = Justification is necessary to reject
+entrepreneur.investmentRound.error.isSpam = It has spam

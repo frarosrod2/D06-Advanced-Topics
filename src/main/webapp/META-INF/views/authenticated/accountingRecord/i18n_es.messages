@@ -1,0 +1,10 @@
+authenticated.accountingRecord.form.label.title = Título
+authenticated.accountingRecord.form.label.status = Estatus
+authenticated.accountingRecord.form.label.creationMoment = Momento de creación
+authenticated.accountingRecord.form.label.body = Cuerpo
+
+authenticated.accountingRecord.list.label.title = Título
+authenticated.accountingRecord.list.label.status = Estatus
+authenticated.accountingRecord.list.label.creationMoment = Momento de creación
+
+authenticated.accountingRecord.form.button.return = Volver

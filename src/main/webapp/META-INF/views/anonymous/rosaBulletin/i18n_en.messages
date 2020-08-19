@@ -1,0 +1,10 @@
+anonymous.rosaBulletin.form.label.author = Author
+anonymous.rosaBulletin.form.label.title = Title
+anonymous.rosaBulletin.form.label.description = Description
+anonymous.rosaBulletin.form.button.create = Create
+anonymous.rosaBulletin.form.button.return = Return
+
+anonymous.rosaBulletin.list.label.moment = Moment
+anonymous.rosaBulletin.list.label.author = Author
+anonymous.rosaBulletin.list.label.title = Title
+anonymous.rosaBulletin.list.label.description = Description

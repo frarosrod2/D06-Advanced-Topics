@@ -1,0 +1,12 @@
+authenticated.involved-user.form.label.searchUser = Search user
+authenticated.involved-user.form.label.username = Username
+authenticated.involved-user.form.button.create = Add
+authenticated.involved-user.form.button.delete = Delete
+authenticated.involvedIn.error.searchUser = The user doesn't exists
+authenticated.involvedIn.error.searchUserInInvolved = The user is already added
+authenticated.involvedUser.form.error.delete-creator = The creator can't be deleted
+
+authenticated.involved-user.form.button.return = Return
+
+authenticated.involvedUser.list.label.authenticatedUserName = Username
+authenticated.involvedUser.list.label.return = Return

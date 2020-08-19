@@ -1,0 +1,12 @@
+anonymous.notice.form.label.title = Title
+anonymous.notice.form.label.picture = Picture
+anonymous.notice.form.label.creation = Creation
+anonymous.notice.form.label.deadline = Deadline
+anonymous.notice.form.label.body = Body
+anonymous.notice.form.label.linkList = Link list
+
+anonymous.notice.list.label.title = Title
+anonymous.notice.list.label.picture = Picture
+anonymous.notice.list.label.creation = Creation
+
+anonymous.notice.form.button.return = Return

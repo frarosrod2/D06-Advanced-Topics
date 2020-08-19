@@ -1,0 +1,35 @@
+entrepreneur.investmentRound.form.label.ticker = Ticker
+entrepreneur.investmentRound.form.label.round = Ronda
+entrepreneur.investmentRound.form.label.title = Título
+entrepreneur.investmentRound.form.label.creationMoment = Momento de creación
+entrepreneur.investmentRound.form.label.description = Descripción
+entrepreneur.investmentRound.form.label.money = Cantidad de dinero
+entrepreneur.investmentRound.form.label.link = Enlace
+entrepreneur.investmentRound.form.label.workProgramme = Programa de trabajo
+entrepreneur.investmentRound.form.label.finalMode = Modo final
+
+entrepreneur.investmentRound.form.button.update-activities = Actualizar actividades
+entrepreneur.investmentRound.form.button.delete-activities = Borrar actividades
+entrepreneur.investmentRound.form.button.accountingRecords = Registros contables
+entrepreneur.investmentRound.form.button.add-activities = Añadir actividades
+entrepreneur.investmentRound.form.button.create = Crear
+entrepreneur.investmentRound.form.button.update = Actualizar
+entrepreneur.investmentRound.form.button.delete = Borrar
+
+entrepreneur.investmentRound.list.label.title = Título
+entrepreneur.investmentRound.list.label.round = Ronda
+entrepreneur.investmentRound.list.label.ticker = Ticker
+
+entrepreneur.investmentRound.form.button.return = Volver
+
+entrepreneur.investmentRound.error.negative-money = Salario negativo
+entrepreneur.investmentRound.error.money-not-EUR = Salario no en EUR
+entrepreneur.investmentRound.error.must-be-different-ticker = El ticker debe ser diferente
+entrepreneur.investmentRound.error.investmentRound-published = No está en modo final
+entrepreneur.investmentRound.error.no-description = No tiene descripción
+entrepreneur.investmentRound.error.workProgrammeSum = La suma de dinero del programa de trabajo no es igual al salario
+
+entrepreneur.investmentRound.error.isSpam = Contiene spam
+entrepreneur.investmentRound.error.applied = La ronda de inversión esta aplicada
+entrepreneur.investmentRound.error.investmentRound-published = La ronda de inversión no esta en modo final
+entrepreneur.investmentRound.error.workProgrammeSum = La cantidad del programa de trabajo no es igual al de la ronda de inversiones

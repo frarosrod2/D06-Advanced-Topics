@@ -1,0 +1,185 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+# master.banner.welcome #######################################################
+
+master.banner.background = images/banner.png 
+
+# master.welcome ##############################################################
+
+master.welcome.title = Welcome!
+master.welcome.text = \
+	Welcome to Starter Project! Never before has it bee easier to get your \
+	project up and running!
+
+# master.menu #################################################################
+
+master.menu.home = Home
+master.menu.sign-up = Sign up
+master.menu.sign-in = Sign in
+master.menu.sign-out = Sign out
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous.favourite-link = Favourite Links
+master.menu.anonymous.favourite-link.paco = Paco's favourite link
+master.menu.anonymous.favourite-link.nico = Nico's favourite link
+master.menu.anonymous.favourite-link.alberto = Alberto's favourite link
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrator
+master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.customisations.display = Display customisation 
+master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.shutdown = Shut down
+master.menu.administrator.notice.create = Create notice
+master.menu.administrator.notice.list = List of notices
+master.menu.administrator.listInquiries = List inquiries
+master.menu.administrator.createInquiries = Create inquiry
+master.menu.administrator.listOvertures = List overtures
+master.menu.administrator.createOvertures = Create overture
+master.menu.administrator.createChallenges = Create challenges
+master.menu.administrator.listChallenges = List challenges
+master.menu.administrator.createTechnologyRecords = Create technology records
+master.menu.administrator.listTechnologyRecords = List technology records
+master.menu.administrator.createToolRecords = Create tool records
+master.menu.administrator.listToolRecords = List tool records
+master.menu.administrator.acceptBookkeeper = Accept request to become bookkeeper
+# master.menu.provider ########################################################
+
+# master.menu.patron ########################################################
+master.menu.patron = Patron
+master.menu.patron.listBanners = List banners
+master.menu.patron.createBanners = Create banner
+
+# master.menu.provider ########################################################
+master.menu.provider = Provider
+master.menu.provider.favourite-link = Favourite link
+
+# master.menu.bookkeeper ########################################################
+master.menu.bookkeeper = Bookkeeper
+master.menu.bookkeeper.investmentRound.listWritten = Investment rounds with accounting record written 
+master.menu.bookkeeper.investmentRound.list = Investment rounds without accounting record written 
+		
+# master.menu.consumer ##########################################################
+master.menu.consumer = Consumer
+master.menu.consumer.favourite-link = Favourite link
+
+# master.menu.entrepreneur ##########################################################
+master.menu.entrepreneur = Entrepreneur
+master.menu.entrepreneur.investment-round.list_mine = List my investment rounds
+master.menu.entrepreneur.application.list_mine = List my applications
+master.menu.entrepreneur.investment-round.create = Create investment round
+
+# master.menu.investor ##########################################################
+master.menu.investor = Investor
+master.menu.investor.application.list_mine = List my applications
+master.menu.investor.investmentRound.list = List investment round published
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Account
+master.menu.user-account.general-data = General data
+master.menu.user-account.provider = Provider data
+master.menu.user-account.become-provider = Become a provider
+master.menu.user-account.consumer = Consumer data
+master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.become-entrepreneur = Become a entrepreneur
+master.menu.user-account.entrepreneur = Entrepreneur data
+master.menu.user-account.become-investor = Become a investor
+master.menu.user-account.investor = Investor data
+master.menu.user-account.become-bookkeepeer = Become a bookkeeper
+master.menu.user-account.bookkeeper = Bookkeeper data
+master.menu.user-account.become-patron = Become a patron
+master.menu.user-account.patron = Patron data
+
+# master.menu.bulletin ###############################################################
+
+master.menu.anonymous.bulletin.bulletins = Bulletins
+master.menu.anonymous.bulletin.pazos.create = Create Pazos bulletin
+master.menu.anonymous.bulletin.pazos.list = List Pazos bulletin
+master.menu.anonymous.bulletin.rosa.create = Create Rosa bulletin
+master.menu.anonymous.bulletin.rosa.list = List Rosa bulletin
+master.menu.anonymous.bulletin.murillo.create = Create Murillo bulletin
+master.menu.anonymous.bulletin.murillo.list = List Murillo bulletin
+
+# master.menu.authenticated ###############################################################
+
+master.menu.authenticated.menu.authenticated = Authenticated
+master.menu.authenticated.inquires = Inquires
+master.menu.authenticated.inquiry.list = List of inquiries
+master.menu.authenticated.overtures = Overtures
+master.menu.authenticated.overture.list = List of overtures
+master.menu.authenticated.notice = Notices
+master.menu.authenticated.notice.list = List of notices
+master.menu.authenticated.technologyRecord.list = List of technology records
+master.menu.authenticated.toolRecord.list = List of tool records
+master.menu.authenticated.challenge.list = List of challenges
+master.menu.authenticated.investmentRound.list = List of investment rounds
+master.menu.authenticated.menu.forums = Forums
+master.menu.authenticated.forums.list = List forums where i am involved
+master.menu.authenticated.forums.listMine = List my forums
+master.menu.authenticated.forums.create = Create forum
+
+
+
+# master.menu.anonymous.technologyRecord ###############################################################
+
+master.menu.anonymous.technologyRecord = Technology Records
+master.menu.anonymous.technologyRecord.list = List of Technology Records
+
+# master.menu.anonymous.toolRecord ###############################################################
+
+master.menu.anonymous.toolRecord = Tool Records
+master.menu.anonymous.toolRecord.list = List of Tool Records
+
+
+# master.menu.anonymous.notice ###############################################################
+
+master.menu.anonymous.notice = Notices
+master.menu.anonymous.notice.list = List of Notices
+
+
+# master.footer ###############################################################
+
+master.footer.title.about = About us
+master.footer.label.company = Company
+master.footer.label.license = License
+master.footer.title.social = Social
+master.footer.label.linked-in = Linked-In
+master.footer.label.twitter = Twitter
+master.footer.title.languages = Languages
+master.footer.label.english = English
+master.footer.label.spanish = Spanish
+
+# master.company ##############################################################
+
+master.company.title = La compañía
+master.company.text = \
+	Acme Incubator, Inc. is a fictitious fictitious company that provides a \
+	starter project for the students of the Design and Testing subject of the \
+	Software Engineering Curriculum of the University of Sevilla.
+master.company.name = Acme Incubator, Inc.
+master.company.address = Reina Mercedes 1, Seville, Spain
+master.company.phone = +000 123 456
+master.company.email = contact@acme.com
+
+# master.license ##############################################################
+
+master.license.title = License
+master.license.text = \
+	You may use this system free of charge, as long as you carefully observe the \
+	existing applicable laws.  Please, note that we do not share any information \
+	about you with any other company.  We only use three cookies, namely: \
+	"JSESSIONID" to identify your work session, "remember" to let you authenticate \
+	automatically for a maximum of 31 days, and "language" to store your language \
+	preferences. Additionally, we store an item called "returnStack" in your browser's \
+	local storage to keep track of the document to which some buttons must return.
