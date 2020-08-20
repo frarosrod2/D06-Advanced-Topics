@@ -43,10 +43,6 @@
        drop 
        foreign key `FKhdducua8c58xhfrls8oiih3j0`;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `entrepreneur` 
        drop 
        foreign key FK_r6tqltqvrlh1cyy8rsj5pev1q;
@@ -130,8 +126,6 @@
     drop table if exists `bookkeeper_request`;
 
     drop table if exists `challenge`;
-
-    drop table if exists `consumer`;
 
     drop table if exists `credit_card`;
 
