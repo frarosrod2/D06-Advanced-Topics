@@ -64,10 +64,6 @@ master.menu.bookkeeper = Contable
 master.menu.bookkeeper.investmentRound.listWritten = Rondas de inversión con registros de contabilidad escritos
 master.menu.bookkeeper.investmentRound.list = Rondas de inversión sin registros de contabilidad escritos
 
-# master.menu.provider ########################################################
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-
 # master.menu.entrepreneur ##########################################################
 master.menu.entrepreneur = Emprendedor
 master.menu.entrepreneur.investment-round.list_mine = Lista de mis rondas de inversiones
@@ -83,8 +79,6 @@ master.menu.investor.investmentRound.list = Listar rondas de inversión publicad
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.provider = Datos de proveedor
-master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.become-entrepreneur = Hazte empresario
 master.menu.user-account.entrepreneur = Datos de empresario
 master.menu.user-account.become-investor = Hazte inversor
