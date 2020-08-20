@@ -53,16 +53,11 @@ master.menu.administrator.listTechnologyRecords = List technology records
 master.menu.administrator.createToolRecords = Create tool records
 master.menu.administrator.listToolRecords = List tool records
 master.menu.administrator.acceptBookkeeper = Accept request to become bookkeeper
-# master.menu.provider ########################################################
 
 # master.menu.patron ########################################################
 master.menu.patron = Patron
 master.menu.patron.listBanners = List banners
 master.menu.patron.createBanners = Create banner
-
-# master.menu.provider ########################################################
-master.menu.provider = Provider
-master.menu.provider.favourite-link = Favourite link
 
 # master.menu.bookkeeper ########################################################
 master.menu.bookkeeper = Bookkeeper
@@ -84,8 +79,6 @@ master.menu.investor.investmentRound.list = List investment round published
 
 master.menu.user-account = Account
 master.menu.user-account.general-data = General data
-master.menu.user-account.provider = Provider data
-master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.become-entrepreneur = Become a entrepreneur
 master.menu.user-account.entrepreneur = Entrepreneur data
 master.menu.user-account.become-investor = Become a investor

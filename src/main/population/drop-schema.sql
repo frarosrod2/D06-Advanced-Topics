@@ -103,10 +103,6 @@
        drop 
        foreign key FK_8xx5nujhuio3advxc2freyu65;
 
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
-
     drop table if exists `accounting_record`;
 
     drop table if exists `activity`;
@@ -158,8 +154,6 @@
     drop table if exists `patron`;
 
     drop table if exists `pazos_bulletin`;
-
-    drop table if exists `provider`;
 
     drop table if exists `rosa_bulletin`;
 
