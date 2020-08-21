@@ -18,4 +18,3 @@
 <div class="rounded" style="background: <acme:message code='master.banner.background'/>">
 	<img src="images/banner.png" alt="Acme Jobs, Inc." class="img-fluid rounded"/>
 </div>
-

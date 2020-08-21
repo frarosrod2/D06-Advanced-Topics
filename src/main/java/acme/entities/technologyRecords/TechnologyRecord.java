@@ -2,13 +2,14 @@
 package acme.entities.technologyRecords;
 
 import javax.persistence.Entity;
-import javax.validation.constraints.Email;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
 
+import acme.datatypes.Email;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -40,9 +41,8 @@ public class TechnologyRecord extends DomainEntity {
 	@URL
 	private String				website;
 
-	@NotBlank
-	@Email
-	private String				email;
+	@Valid
+	private Email				email;
 
 	@NotNull
 	private Boolean				openSource;

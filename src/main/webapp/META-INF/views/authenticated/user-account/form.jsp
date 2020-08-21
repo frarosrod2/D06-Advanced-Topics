@@ -22,7 +22,7 @@
 	
 	<acme:form-textbox code="authenticated.user-account.form.label.name" path="identity.name"/>
 	<acme:form-textbox code="authenticated.user-account.form.label.surname" path="identity.surname"/>
-	<acme:form-textbox code="authenticated.user-account.form.label.email" path="identity.email"/>
+	<acme:form-textbox code="authenticated.user-account.form.label.email" path="identity.email.email"/>
 	 
 	<acme:form-submit code="authenticated.user-account.form.button.update" action="/authenticated/user-account/update"/>
   	<acme:form-return code="authenticated.user-account.form.button.return"/>

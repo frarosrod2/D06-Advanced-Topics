@@ -17,6 +17,99 @@
 
 	<import resource="conversion-service.xml" />
 
+	<!-- Email -->
+	
+	<bean name="email1" class="acme.datatypes.Email">
+		<property name="email" value="user1@acme.com" />
+	</bean>
+	
+	<bean name="email2" class="acme.datatypes.Email">
+		<property name="email" value="example@hotmail.com" />
+	</bean>
+	
+	<bean name="email3" class="acme.datatypes.Email">
+		<property name="email" value="testdeploy@hotmail.com" />
+	</bean>
+	
+	<bean name="email4" class="acme.datatypes.Email">
+		<property name="email" value="google@gmail.com" />
+	</bean>
+	
+	<bean name="email99" class="acme.datatypes.Email">
+		<property name="email" value="testapplication@hotmail.com" />
+	</bean>
+	
+	<bean name="email5" class="acme.datatypes.Email">
+		<property name="email" value="nasa@gmail.com" />
+	</bean>
+	
+	<bean name="email6" class="acme.datatypes.Email">
+		<property name="email" value="apple@gmail.com" />
+	</bean>
+	
+	<bean name="email7" class="acme.datatypes.Email">
+		<property name="email" value="tesla@gmail.com" />
+	</bean>
+	
+	<bean name="email8" class="acme.datatypes.Email">
+		<property name="email" value="spacex@gmail.com" />
+	</bean>
+	
+	<bean name="email9" class="acme.datatypes.Email">
+		<property name="email" value="microsoft@hotmail.com" />
+	</bean>
+	
+	<bean name="email10" class="acme.datatypes.Email">
+		<property name="email" value="sony@hotmail.com" />
+	</bean>
+	
+	<bean name="email11" class="acme.datatypes.Email">
+		<property name="email" value="paypal@hotmail.com" />
+	</bean>
+	
+	<bean name="email12" class="acme.datatypes.Email">
+		<property name="email" value="aaas@hotmail.com" />
+	</bean>
+	
+	<bean name="email13" class="acme.datatypes.Email">
+		<property name="email" value="liquid@hotmail.com" />
+	</bean>
+	
+	<bean name="email14" class="acme.datatypes.Email">
+		<property name="email" value="acmeoverture@hotmail.com" />
+	</bean>
+	
+	<bean name="email15" class="acme.datatypes.Email">
+		<property name="email" value="testoverture@hotmail.com" />
+	</bean>
+	
+	<bean name="email16" class="acme.datatypes.Email">
+		<property name="email" value="lastoverture@hotmail.com" />
+	</bean>
+	
+	<bean name="email17" class="acme.datatypes.Email">
+		<property name="email" value="entrepreneur.one@acme.com" />
+	</bean>
+	
+	<bean name="email18" class="acme.datatypes.Email">
+		<property name="email" value="entrepreneur.two@acme.com" />
+	</bean>
+	
+	<bean name="email19" class="acme.datatypes.Email">
+		<property name="email" value="investor.one@acme.com" />
+	</bean>
+	
+	<bean name="email20" class="acme.datatypes.Email">
+		<property name="email" value="investor.two@acme.com" />
+	</bean>
+	
+	<bean name="email21" class="acme.datatypes.Email">
+		<property name="email" value="bookkeeper.one@acme.com" />
+	</bean>
+	
+	<bean name="email22" class="acme.datatypes.Email">
+		<property name="email" value="bookkeeper.two@acme.com" />
+	</bean>
 
 	<bean name="authenticatedUserAccount1" class="acme.framework.entities.UserAccount">
 		<property name="username" value="user1" />
@@ -26,7 +119,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="surname" value="Test" />
 				<property name="name" value="User1" />
-				<property name="email" value="user1@acme.com" />
+				<property name="email" ref="email1" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -55,7 +148,7 @@
 		<property name="description" value="Deploy the aplication Acme-Jobs in cloud" />
 		<property name="minMoney" value="10.00€" />
 		<property name="maxMoney" value="100.00€" />
-		<property name="email" value="example@hotmail.com" />
+		<property name="email" ref="email2" />
 	</bean>
 	
 	<bean id="inquiry02" class="acme.entities.inquiries.Inquiry">
@@ -65,7 +158,7 @@
 		<property name="description" value="Test the deploy in cloud" />
 		<property name="minMoney" value="150.00€" />
 		<property name="maxMoney" value="250.00€" />
-		<property name="email" value="testdeploy@hotmail.com" />
+		<property name="email" ref="email3" />
 	</bean>
 	
 	<bean id="inquiry03" class="acme.entities.inquiries.Inquiry">
@@ -75,7 +168,7 @@
 		<property name="description" value="Test the aplication Acme-Incubator in cloud" />
 		<property name="minMoney" value="5.00€" />
 		<property name="maxMoney" value="25.00€" />
-		<property name="email" value="testapplication@hotmail.com" />
+		<property name="email" ref="email99" />
 	</bean>
 
 	<bean id="technologyRecord01" class="acme.entities.technologyRecords.TechnologyRecord">
@@ -84,7 +177,7 @@
 		<property name="inventor" value="Google" />
 		<property name="description" value="First Technology Record Test" />
 		<property name="website" value="https://www.google.com" />
-		<property name="email" value="google@gmail.com" />
+		<property name="email" ref="email4" />
 		<property name="openSource" value="true" />
 		<property name="stars" value="4" />
 	</bean>
@@ -95,7 +188,7 @@
 		<property name="inventor" value="NASA" />
 		<property name="description" value="Nasa Technology Record" />
 		<property name="website" value="https://www.nasa.com" />
-		<property name="email" value="nasa@gmail.com" />
+		<property name="email" ref="email5" />
 		<property name="openSource" value="false" />
 		<property name="stars" value="3" />
 	</bean>
@@ -106,7 +199,7 @@
 		<property name="inventor" value="Apple" />
 		<property name="description" value="Apple Technology Record" />
 		<property name="website" value="https://www.apple.com" />
-		<property name="email" value="apple@gmail.com" />
+		<property name="email" ref="email6" />
 		<property name="openSource" value="false" />
 		<property name="stars" value="2" />
 	</bean>
@@ -117,7 +210,7 @@
 		<property name="inventor" value="Tesla Motors" />
 		<property name="description" value="Tesla Motors Technology Record" />
 		<property name="website" value="https://www.tesla.com" />
-		<property name="email" value="tesla@gmail.com" />
+		<property name="email" ref="email7" />
 		<property name="openSource" value="true" />
 		<property name="stars" value="5" />
 	</bean>
@@ -128,7 +221,7 @@
 		<property name="inventor" value="SpaceX" />
 		<property name="description" value="SpaceX Technology Record"/>
 		<property name="website" value="https://www.spacex.com" />
-		<property name="email" value="spacex@gmail.com" />
+		<property name="email" ref="email8" />
 		<property name="openSource" value="true" />
 		<property name="stars" value="4" />
 	</bean>
@@ -139,7 +232,7 @@
 		<property name="inventor" value="Microsoft" />
 		<property name="description" value="First Tool Record Test" />
 		<property name="website" value="https://www.microsoft.com" />
-		<property name="email" value="microsoft@hotmail.com" />
+		<property name="email" ref="email9" />
 		<property name="openSource" value="true" />
 		<property name="stars" value="4" />
 	</bean>
@@ -150,7 +243,7 @@
 		<property name="inventor" value="Sony" />
 		<property name="description" value="Second Tool Record Test" />
 		<property name="website" value="https://www.sony.com" />
-		<property name="email" value="sony@hotmail.com" />
+		<property name="email" ref="email10" />
 		<property name="openSource" value="true" />
 		<property name="stars" value="5" />
 	</bean>
@@ -161,7 +254,7 @@
 		<property name="inventor" value="Paypal" />
 		<property name="description" value="Paypal Tool Record" />
 		<property name="website" value="https://www.paypal.com" />
-		<property name="email" value="paypal@hotmail.com" />
+		<property name="email" ref="email11" />
 		<property name="openSource" value="true" />
 		<property name="stars" value="5" />
 	</bean>
@@ -172,7 +265,7 @@
 		<property name="inventor" value="AAAS" />
 		<property name="description" value="American Association for the Advancement of Science Tool Record" />
 		<property name="website" value="https://www.aaas.com" />
-		<property name="email" value="aaas@hotmail.com" />
+		<property name="email" ref="email12" />
 		<property name="openSource" value="false" />
 		<property name="stars" value="2" />
 	</bean>
@@ -183,7 +276,7 @@
 		<property name="inventor" value="Liquid technologies" />
 		<property name="description" value="Liquid technologies Tool Record" />
 		<property name="website" value="https://www.liquid.com" />
-		<property name="email" value="liquid@hotmail.com" />
+		<property name="email" ref="email13" />
 		<property name="openSource" value="false" />
 		<property name="stars" value="3" />
 	</bean>
@@ -195,7 +288,7 @@
 		<property name="description" value="Description of the acme overture" />
 		<property name="minMoney" value="eur 123.34"/>
 		<property name="maxMoney" value="eur 431.53"/>
-		<property name="email" value="acmeoverture@hotmail.com" />
+		<property name="email" ref="email14" />
 	</bean>
 	
 	<bean id="overture02" class="acme.entities.overtures.Overture">
@@ -205,7 +298,7 @@
 		<property name="description" value="Description of the test overture" />
 		<property name="minMoney" value="eur 143.82"/>
 		<property name="maxMoney" value="eur 324.22"/>
-		<property name="email" value="testoverture@hotmail.com" />
+		<property name="email" ref="email15" />
 	</bean>
 	
 	<bean id="overture03" class="acme.entities.overtures.Overture">
@@ -215,7 +308,7 @@
 		<property name="description" value="Description of the last overture" />
 		<property name="minMoney" value="eur 443.82"/>
 		<property name="maxMoney" value="eur 924.52"/>
-		<property name="email" value="lastoverture@hotmail.com" />
+		<property name="email" ref="email16" />
 	</bean>
 	
 	
@@ -271,7 +364,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="name" value="Entrepreneur" />
 				<property name="surname" value="One" />
-				<property name="email" value="entrepreneur.one@acme.com" />
+				<property name="email" ref="email17" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -303,7 +396,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="name" value="Entrepreneur" />
 				<property name="surname" value="Two" />
-				<property name="email" value="entrepreneur.two@acme.com" />
+				<property name="email" ref="email18" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -338,7 +431,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="name" value="Investor" />
 				<property name="surname" value="One" />
-				<property name="email" value="investor.one@acme.com" />
+				<property name="email" ref="email19" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -369,7 +462,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="name" value="Investor" />
 				<property name="surname" value="Two" />
-				<property name="email" value="investor.two@acme.com" />
+				<property name="email" ref="email20" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -393,37 +486,6 @@
 	</bean>
 	
 	<!-- Patron -->
-	
-	
-	<bean name="patron1UserAccount" class="acme.framework.entities.UserAccount">
-		<property name="username" value="patron1" />
-		<property name="password" value="patron1" />
-		<property name="enabled" value="true" />
-		<property name="identity">
-			<bean class="acme.datatypes.UserIdentity">
-				<property name="name" value="Patron" />
-				<property name="surname" value="One" />
-				<property name="email" value="patron.one@acme.com" />
-			</bean>
-		</property>
-		<property name="roles">
-			<list>
-				<ref bean="patron1Patron" />
-				<ref bean="patron1Authenticated" />
-			</list>
-		</property>
-	</bean>
-	
-	<bean name="patron1Patron" class="acme.entities.roles.Patron">
-		<property name="name" value="Patron1" />
-		<property name="userAccount" ref="patron1UserAccount"/>
-		
-	</bean>
-
-	<bean name="patron1Authenticated" class="acme.framework.entities.Authenticated">
-		<property name="userAccount" ref="patron1UserAccount" />
-	</bean>
-
 	
 	<bean id="investmentRound01" class="acme.entities.investmentRounds.InvestmentRound">
 		<property name="title" value="Acme Investment" />
@@ -682,7 +744,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 			<property name="name" value="Bookkeeper"/>
 			<property name="surname" value="One"/>
-			<property name="email" value="bookkeeper.one@acme.com"/>
+			<property name="email" ref="email21"/>
 			</bean>
 		</property>
 		<property name="roles">
@@ -712,7 +774,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 			<property name="name" value="Bookkeeper"/>
 			<property name="surname" value="Two"/>
-			<property name="email" value="bookkeeper.two@acme.com"/>
+			<property name="email" ref="email22"/>
 			</bean>
 		</property>
 		<property name="roles">

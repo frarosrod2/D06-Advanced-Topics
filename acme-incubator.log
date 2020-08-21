@@ -597,3 +597,26 @@ ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.la
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 404
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy177]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at acme.framework.helpers.ConversionHelper.convert(ConversionHelper.java:41): java.lang.AssertionError
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at org.apache.tiles.request.servlet.ServletUtil.wrapServletException(ServletUtil.java:61): JSPException including path '../authenticated/user-account/form.jsp'.
+at org.apache.jsp.tag.web.print_tag.doTag(print_tag.java:168): java.lang.AssertionError
+at acme.framework.helpers.ConversionHelper.convert(ConversionHelper.java:41): java.lang.AssertionError
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at acme.framework.helpers.ConversionHelper.convert(ConversionHelper.java:41): java.lang.AssertionError

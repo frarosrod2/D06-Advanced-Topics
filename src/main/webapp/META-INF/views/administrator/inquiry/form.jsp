@@ -7,9 +7,9 @@
 	<acme:form-textbox code="administrator.inquiry.form.label.title" path="title"/>
 	<acme:form-moment code="administrator.inquiry.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="administrator.inquiry.form.label.description" path="description"/>
-	<acme:form-textbox code="administrator.inquiry.form.label.minMoney" path="minMoney"/>
-	<acme:form-textbox code="administrator.inquiry.form.label.maxMoney" path="maxMoney"/>
-	<acme:form-textbox code="administrator.inquiry.form.label.email" path="email"/>
+	<acme:form-money code="administrator.inquiry.form.label.minMoney" path="minMoney"/>
+	<acme:form-money code="administrator.inquiry.form.label.maxMoney" path="maxMoney"/>
+	<acme:form-textbox code="administrator.inquiry.form.label.email" path="email.email"/>
 
 	<acme:form-submit test="${command=='show'}"
 		action="/administrator/inquiry/update"

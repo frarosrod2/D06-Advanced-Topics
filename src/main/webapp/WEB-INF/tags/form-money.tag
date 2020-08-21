@@ -49,3 +49,4 @@
 	<acme:form-errors path="${path}.amount"/>
 	<acme:form-errors path="${path}.currency"/>
 </div>
+

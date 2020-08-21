@@ -162,7 +162,7 @@
         `creation` datetime(6),
         `deadline` datetime(6),
         `description` varchar(255),
-        `email` varchar(255),
+        `email_email` varchar(255),
         `max_money_amount` double precision,
         `max_money_currency` varchar(255),
         `min_money_amount` double precision,
@@ -254,7 +254,7 @@
         `creation` datetime(6),
         `deadline` datetime(6),
         `description` varchar(255),
-        `email` varchar(255),
+        `email_email` varchar(255),
         `max_money_amount` double precision,
         `max_money_currency` varchar(255),
         `min_money_amount` double precision,
@@ -299,7 +299,7 @@
         `version` integer not null,
         `activity_sector` varchar(255),
         `description` varchar(255),
-        `email` varchar(255),
+        `email_email` varchar(255),
         `inventor` varchar(255),
         `open_source` bit,
         `stars` integer,
@@ -313,7 +313,7 @@
         `version` integer not null,
         `activity_sector` varchar(255),
         `description` varchar(255),
-        `email` varchar(255),
+        `email_email` varchar(255),
         `inventor` varchar(255),
         `open_source` bit,
         `stars` integer,
@@ -326,7 +326,7 @@
        `id` integer not null,
         `version` integer not null,
         `enabled` bit not null,
-        `identity_email` varchar(255),
+        `identity_email_email` varchar(255),
         `identity_name` varchar(255),
         `identity_surname` varchar(255),
         `password` varchar(255),
@@ -482,4 +482,3 @@ create index IDX3qtg1fe48q71u218rdyieeurl on `investment_round` (`creation_momen
        add constraint FK_8xx5nujhuio3advxc2freyu65 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
-

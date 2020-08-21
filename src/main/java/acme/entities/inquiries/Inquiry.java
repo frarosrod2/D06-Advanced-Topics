@@ -8,12 +8,12 @@ import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.Valid;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 
+import acme.datatypes.Email;
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -53,9 +53,8 @@ public class Inquiry extends DomainEntity {
 	@Valid
 	private Money				maxMoney;
 
-	@NotBlank
-	@Email
-	private String				email;
+	@Valid
+	private Email				email;
 
 
 	@Transient

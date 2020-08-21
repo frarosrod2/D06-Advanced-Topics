@@ -15,8 +15,9 @@ package acme.datatypes;
 import java.beans.Transient;
 
 import javax.persistence.Embeddable;
-import javax.validation.constraints.Email;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import acme.framework.datatypes.DomainDatatype;
 import lombok.Getter;
@@ -41,9 +42,9 @@ public class UserIdentity extends DomainDatatype {
 	@NotBlank
 	private String				surname;
 
-	@NotBlank
-	@Email
-	private String				email;
+	@NotNull
+	@Valid
+	private Email				email;
 
 
 	// Derived attributes -----------------------------------------------------

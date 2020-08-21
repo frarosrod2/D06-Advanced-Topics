@@ -21,6 +21,10 @@
 	<import resource="conversion-service.xml"/>
 	
 	<!-- Anonymous user -->
+	
+	<bean name="email26" class="acme.datatypes.Email">
+		<property name="email" value="john.doe@acme.com" />
+	</bean>
 
 	<bean name="anonymousUserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="anonymous" />
@@ -30,7 +34,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="name" value="John" />
 				<property name="surname" value="Doe" />
-				<property name="email" value="john.doe@acme.com" />
+				<property name="email" ref="email26" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -46,6 +50,10 @@
 
 	<!-- Administrators -->
 	
+	<bean name="email25" class="acme.datatypes.Email">
+		<property name="email" value="administrator@acme.com" />
+	</bean>
+	
 	<bean name="administratorUserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="administrator" />
 		<property name="password" value="administrator" />
@@ -54,7 +62,7 @@
 			<bean class="acme.datatypes.UserIdentity">
 				<property name="name" value="Administrator" />
 				<property name="surname" value="Acme.com" />
-				<property name="email" value="administrator@acme.com" />
+				<property name="email" ref="email25" />
 			</bean>
 		</property>
 		<property name="roles">
@@ -109,6 +117,116 @@
 <!-- 			</list> -->
 <!--   		</property> -->
   	</bean>
+  	
+  	<!-- Sponsors -->
+  	
+  	<bean name="email23" class="acme.datatypes.Email">
+		<property name="email" value="patron.one@acme.com" />
+	</bean>
 	
+	<bean name="email24" class="acme.datatypes.Email">
+		<property name="email" value="patron.two@acme.com" />
+	</bean>
+
+	<bean name="patron1UserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="patron1" />
+		<property name="password" value="patron1" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Patron" />
+				<property name="surname" value="One" />
+				<property name="email" ref="email23" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="patron1Patron" />
+				<ref bean="patron1Authenticated" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean name="patron1Patron" class="acme.entities.roles.Patron">
+		<property name="name" value="Patron1" />
+		<property name="creditCard" ref="creditCard1" />
+		<property name="userAccount" ref="patron1UserAccount"/>
+		
+	</bean>
+
+	<bean name="patron1Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="patron1UserAccount" />
+	</bean>
+
+	<bean name="patron2UserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="patron2" />
+		<property name="password" value="patron2" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Patron" />
+				<property name="surname" value="Two" />
+				<property name="email" ref="email24" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="patron2Patron" />
+				<ref bean="patron2Authenticated" />
+			</list>
+		</property>
+	</bean>
+
+	<bean name="patron2Patron" class="acme.entities.roles.Patron">
+		<property name="name" value="Patron2" />
+		<property name="creditCard" ref="creditCard2" />
+		<property name="userAccount" ref="patron2UserAccount" />
+	</bean>
+
+	<bean name="patron2Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="patron2UserAccount" />
+	</bean>
+
+
+	<bean id="banner1" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://i.imgur.com/8YcXhS0.png"/>
+		<property name="slogan" value="Work hard"/>	
+		<property name="targetURL" value="https://www.google.es"/>
+		<property name="creditCard" ref="creditCard1"/>	
+		<property name="patron" ref="patron1Patron"/>
+	</bean>
+
+	<bean id="banner2" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://i.imgur.com/2eVF1HG.png"/>
+		<property name="slogan" value="I'm lovin' it"/>	
+		<property name="targetURL" value="https://www.mcdonalds.es"/>
+		<property name="creditCard" ref="creditCard2"/>
+		<property name="patron" ref="patron2Patron"/>	
+	</bean>
+
+	<bean id="banner3" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://i.imgur.com/fihihcF.png"/>
+		<property name="slogan" value="Work hard"/>	
+		<property name="targetURL" value="https://www.google.es"/>
+		<property name="creditCard" ref="creditCard1"/>	
+		<property name="patron" ref="patron1Patron"/>
+	</bean>
+
+	<bean id="creditCard1" class="acme.entities.creditCards.CreditCard" >
+		<property name="holderName" value="S. Bonilla Cabrera" />
+		<property name="brand" value="Visa" />
+		<property name="number" value="0000000000000000"  />
+		<property name="expMonth" value="3" />
+		<property name="expYear" value="22" />
+		<property name="cvv" value="670" />
+	</bean>
+	<bean id="creditCard2" class="acme.entities.creditCards.CreditCard" >
+		<property name="holderName" value="John Doe" />
+		<property name="brand" value="Mastercard" />
+		<property name="number" value="0000000000000000"  />
+		<property name="expMonth" value="4" />
+		<property name="expYear" value="22" />
+		<property name="cvv" value="234" />
+	</bean>
 	
 </beans>
