@@ -38,4 +38,4 @@
 	
 </acme:footer-panel>
 
-<%-- <div align="center"><img src="${banner.picture}"></div> --%>
+<div align="center"><img src="${banner.picture}"></div>

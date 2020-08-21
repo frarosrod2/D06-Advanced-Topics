@@ -339,6 +339,7 @@
     ) engine=InnoDB;
 
     insert into `hibernate_sequence` values ( 1 );
+create index IDX6au2prqfe4r4viltqyq5nsahd on `application` (`ticker` asc, `creation_moment` desc);
 
     alter table `forum_message` 
        add constraint UK_c0q529r106roshilrmgdn5mq7 unique (`messages_id`);
