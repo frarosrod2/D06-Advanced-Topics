@@ -29,7 +29,7 @@ public class AdministratorOvertureShowService implements AbstractShowService<Adm
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "creation", "deadline", "minMoney", "maxMoney", "description", "email");
+		request.unbind(entity, model, "title", "creation", "deadline", "minMoney", "maxMoney", "description", "email.email");
 
 	}
 
