@@ -628,3 +628,21 @@ ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incuba
 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy176]
 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[jsp]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy176]
 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-incubator].[dispatcherServlet]] at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260): Property [picture] not found on type [com.sun.proxy.$Proxy176]
+ERROR [org.apache.catalina.util.LifecycleBase] at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008): Protocol handler start failed
+at sun.nio.ch.Net.bind0(Native Method): Address already in use: bind
+ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] ***************************
+APPLICATION FAILED TO START
+***************************
+Description:
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+Action:
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ERROR [org.apache.catalina.util.LifecycleBase] at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008): Protocol handler start failed
+at sun.nio.ch.Net.bind0(Native Method): Address already in use: bind
+ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] ***************************
+APPLICATION FAILED TO START
+***************************
+Description:
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+Action:
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.

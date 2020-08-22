@@ -43,7 +43,7 @@ public class AdministratorInquiryCreateService implements AbstractCreateService<
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "deadline", "description", "email.email", "minMoney", "maxMoney");
+		request.unbind(entity, model, "title", "deadline", "description", "email", "minMoney", "maxMoney");
 	}
 
 	@Override

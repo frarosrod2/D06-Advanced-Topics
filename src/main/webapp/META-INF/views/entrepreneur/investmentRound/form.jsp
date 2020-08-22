@@ -8,7 +8,7 @@
 	<acme:form-textbox code="entrepreneur.investmentRound.form.label.round" path="round"/>
 	<acme:form-textbox code="entrepreneur.investmentRound.form.label.title" path="title"/>
 	<acme:form-textarea code="entrepreneur.investmentRound.form.label.description" path="description"/>
-	<acme:form-textbox code="entrepreneur.investmentRound.form.label.money" path="money"/>
+	<acme:form-money code="entrepreneur.investmentRound.form.label.money" path="money"/>
 	<acme:form-textbox code="entrepreneur.investmentRound.form.label.link" path="link"/>
 	<jstl:if test="${command != 'create'}">
 		<acme:form-checkbox code="entrepreneur.investmentRound.form.label.finalMode" path="finalMode" />

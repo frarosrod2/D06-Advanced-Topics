@@ -9,7 +9,7 @@
 	<acme:form-textarea code="administrator.inquiry.form.label.description" path="description"/>
 	<acme:form-money code="administrator.inquiry.form.label.minMoney" path="minMoney"/>
 	<acme:form-money code="administrator.inquiry.form.label.maxMoney" path="maxMoney"/>
-	<acme:form-textbox code="administrator.inquiry.form.label.email" path="email.email"/>
+	<acme:form-email code="administrator.inquiry.form.label.email" path="email"/>
 
 	<acme:form-submit test="${command=='show'}"
 		action="/administrator/inquiry/update"

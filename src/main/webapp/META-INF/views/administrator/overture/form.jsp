@@ -9,7 +9,7 @@
 	<acme:form-textarea code="administrator.overture.form.label.description" path="description"/>
 	<acme:form-textbox code="administrator.overture.form.label.minMoney" path="minMoney"/>
 	<acme:form-textbox code="administrator.overture.form.label.maxMoney" path="maxMoney"/>
-	<acme:form-textbox code="administrator.overture.form.label.email" path="email.email"/>
+	<acme:form-email code="administrator.overture.form.label.email" path="email"/>
 
 <acme:form-submit test="${command=='show'}"
 		action="/administrator/overture/update"

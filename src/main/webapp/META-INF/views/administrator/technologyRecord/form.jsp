@@ -9,7 +9,7 @@
 	<acme:form-textbox code="administrator.technologyRecord.form.label.inventor" path="inventor"/>
 	<acme:form-textarea code="administrator.technologyRecord.form.label.description" path="description"/>
 	<acme:form-url code="administrator.technologyRecord.form.label.website" path="website"/>
-	<acme:form-textbox code="administrator.technologyRecord.form.label.email" path="email.email"/>
+	<acme:form-email code="administrator.technologyRecord.form.label.email" path="email"/>
 	<acme:form-checkbox code="administrator.technologyRecord.form.label.openSource" path="openSource"/>
 	<acme:form-integer code="administrator.technologyRecord.form.label.stars" path="stars"/>
 	

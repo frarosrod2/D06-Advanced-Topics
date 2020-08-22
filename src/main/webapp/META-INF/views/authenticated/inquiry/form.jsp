@@ -9,7 +9,7 @@
 	<acme:form-moment code="authenticated.inquiry.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="authenticated.inquiry.form.label.description" path="description"/>
 	<acme:form-textbox code="authenticated.inquiry.form.label.range" path="range"/>
-	<acme:form-textbox code="authenticated.inquiry.form.label.email" path="email.email"/>
+	<acme:form-email code="authenticated.inquiry.form.label.email" path="email"/>
 
 	<acme:form-return code="authenticated.inquiry.form.button.return" />	
 </acme:form> 

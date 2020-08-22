@@ -40,7 +40,7 @@ public class AdministratorTechnologyRecordUpdateService implements AbstractUpdat
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventor", "description", "website", "email.email", "openSource", "stars");
+		request.unbind(entity, model, "title", "activitySector", "inventor", "description", "website", "email", "openSource", "stars");
 	}
 
 	@Override

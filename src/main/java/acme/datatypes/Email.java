@@ -3,7 +3,6 @@ package acme.datatypes;
 
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
 
 import acme.framework.datatypes.DomainDatatype;
 import lombok.Getter;
@@ -16,13 +15,14 @@ public class Email extends DomainDatatype {
 
 	// Serialisation identifier -----------------------------------------------
 
-	private static final long serialVersionUID = 1L;
+	private static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
+	private String				name;
+
 	@NotBlank
-	@Pattern(regexp = "^[a-zA-Z\\s-.]*[<]?[a-zA-Z0-9.]+[@][a-z0-9.]+[>]?")
-	private String email;
+	private String				email;
 
 
 	// Derived attributes -----------------------------------------------------
@@ -33,9 +33,15 @@ public class Email extends DomainDatatype {
 
 		result = new StringBuilder();
 		result.append("<<");
-		result.append(this.email);
+		result.append(this.name);
+		if (this.name == null) {
+			result.append(this.email);
+		} else {
+			result.append("<");
+			result.append(this.email);
+			result.append(">");
+		}
 		result.append(">>");
-
 		return result.toString();
 	}
 }

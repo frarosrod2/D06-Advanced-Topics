@@ -23,6 +23,7 @@
 	<!-- Anonymous user -->
 	
 	<bean name="email26" class="acme.datatypes.Email">
+		<property name="name" value="Jhon"></property>
 		<property name="email" value="john.doe@acme.com" />
 	</bean>
 
