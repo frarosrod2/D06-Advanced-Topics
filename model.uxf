@@ -883,4 +883,21 @@ BookkeeperRequest
 + state: String {NotBlank, Pattern(regexp = "^(accepted)?(rejected)?(pending)?$")}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>371</y>
+      <w>154</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Datatype&gt;&gt;
+Email
+--
++ name: String
++ email: String {NotBlank}
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
